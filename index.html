@@ -39,15 +39,15 @@
         <form>
             <h2>Contact Form</h2>
             <div>
-                Your First Name:
+                <label for="firstname">Your First Name:</label> <!--Added labels-->
                 <input type="text" name="firstname" id="firstname">
             </div>
             <div>
-                Your Last Name:
+                <label for="lastname">Your Last Name:</label>
                 <input type="text" name="lastname" id="lastname">
             </div>
             <div>
-                Concern or Issue:
+                <label for="concern">Concern or Issue:</label>
                 <select name="concern" id="concern">
                     <option value="1">missing product</option>
                     <option value="2">billing issue</option>
@@ -61,8 +61,8 @@
             </div>
             <!--Made the buttons say Clear Form or Submit Form.
             Also switched input type of red button / Clear Form to "reset"-->
-            <input type="reset" value="Clear Form" class="btn1">
-            <input type="submit" value="Submit Form" class="btn2">
+            <input type="reset" value="Clear Form"> <!--Removed button colors-->
+            <input type="submit" value="Submit Form"> <!--Red and green too much-->
         </form>
         <hr>
         <h1>Directions</h1>
